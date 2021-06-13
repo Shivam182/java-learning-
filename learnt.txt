@@ -1,0 +1,25 @@
+Comparator : this can be used with Arrays.sort || Collections.sort() methods as second param 
+it has manily one method used i.e public int compare(o1 ,o2) ==> this method takes params as two instances of 
+Objects of a class and compares them , if o1 > o2 returns (1) else (-1)if inverse of that , and further this
+expression which is compared is used by Comparator and further that helps in ordering of an array As it was 
+passed in sort method 
+
+Character.compare(char1 , char2) ==> compares two characters of primitive types it returns an int value itself depending
+on if char1 > char2 , or less than etc . IT CAN ALSO BE USED IN compare method of Comparator as a return statement 
+{if comparing two char values of an array } coz it itself returns an int based on some comparison .
+
+
+* STRINGS we know are immutable So we can use string buffer class instead of string class to treat them as mutable 
+
+* Annonymous class 
+* java Generics 
+* How comparator works really 
+* recurssion 
+* lambda expression
+* iterable
+* comparable 
+* conversions between collections and a recap 
+* java basics from geeks for geeks revision 
+
+why this not works with stack
+List<Integer> l1 = new Stack<>(Arrays.asList(1,2,3,4));
